@@ -20,7 +20,7 @@
 | [3.7v battery](https://robocraze.com/products/3-7v-2600mah-18650-battery) | For powering the project | 2 | $1.61 | $3.22 | [Robocraze](https://robocraze.com/products/3-7v-2600mah-18650-battery) |
 | [Battery holder](https://robocraze.com/products/18650-dual-battery-holder-with-cover-and-on-off-switch) | For connecting battery with esp32 | 1 | $0.44 | $0.44 | [Robocraze](https://robocraze.com/products/18650-dual-battery-holder-with-cover-and-on-off-switch) |
 | **Parts subtotal** | — | — | — | **$98.76** | — |
-| **Tax & shipping** | — | — | — | **$2.59** | — |
-| **Total** | — | — | — | **$101.35** | — |
+| **Tax & shipping** | — | — | — | **$0.00** | — |
+| **Total** | — | — | — | **$98.76** | — |
 
-**$1.35 over the tier's funding.** Every tier gives a fixed amount for parts, so this needs cutting back or a higher tier.
+$1.24 left of the tier's funding.
