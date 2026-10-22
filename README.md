@@ -12,19 +12,27 @@ Overview
 ​Hardware Architecture
 
 ​Microcontroller: ESP32-WROOM module managing local HTTP traffic, DNS redirection, and Wi-Fi Access Point/Station modes.
+
 ​Storage Interface: Dedicated MicroSD socket routed over high-speed SPI with impedance-aware routing to eliminate bus crosstalk.
+
 ​Power Delivery: Onboard 3.3V low-dropout regulator supported by widened 25-mil power traces and decoupling capacitors to eliminate write-cycle brownout resets.
+
 ​Custom PCB: A 2-layer board designed in Altium Designer featuring optimized thermal relief pads, strict design clearance rules, and an uninterrupted ground return plane.
 
 ​Enclosure Design
 
 ​The system is housed in a custom 3D-printable enclosure tailored for thermal reliability and field usability:
+
 ​Integrated top-mount fan cutout for active cooling during sustained, multi-client read/write workloads.
+
 ​External push-push MicroSD slot for convenient hot-swapping without opening the case.
+
 ​Recessed USB Type-C port for universal 5V power input.
 
 Quick Start
 
 ​Hardware Setup: Insert a FAT32-formatted MicroSD card into the slot and power the device via USB Type-C.
+
 ​Firmware: Open firmware/main.ino in Arduino IDE or PlatformIO, install the necessary ESPAsyncWebServer and FS libraries, and flash the board.
+
 ​Connect: Connect to the ESP32-Storage Wi-Fi network and navigate to [http://192.168.4.1](http://192.168.4.1) in your browser.
